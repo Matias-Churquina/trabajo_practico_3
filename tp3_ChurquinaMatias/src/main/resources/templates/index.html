@@ -3,18 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Programación Visual</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../static/css/estilosForm.css"/>
 </head>
 <body>
 	<header id="header">
 	<h1> Mi Recorrido en Programación Visual</h1>
 	</header>
-	<img src="	https://cdn.euroinnova.edu.es/img/subidasEditor/euroinnova-20-1680081723.webp"/>
+	<aside id="aside">
+		<img src="https://static.vecteezy.com/system/resources/previews/001/312/253/non_2x/programming-and-coding-technology-vector.jpg"/>
+			<h3 id="aside1">Enlaces a recursos realcionados</h3>
+			<a id="aside1" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">FreeCodeCamp: Curso de HTML y CSS</a>
+			<a id="aside1" href="https://desarrolladoresweb.org/html/introduccion-a-html/">Introduccion a HTML</a>
+	</aside>
 	<main>
 	<nav class="menu">
-		<a href="#practica">Práctica</a>
-		<a href="#teoria">Teória</a>
-		<a href="#estadistica">Estadísticas</a>
+		<a id="nav" href="#practica">Práctica</a>
+		<a id="nav" href="#teoria">Teória</a>
+		<a id="nav" href="#estadistica">Estadísticas</a>
 	</nav>
 		<section id="practica">
 			<h2>Práctica</h2>
@@ -29,10 +37,8 @@
 					Trabajo Práctico N°3</a>
 				</ul>
 			</ul>
-		</section>
-		
-		<h3>Desarrollo 1er Trabajo Práctico</h3>
-		<p> Durante el desarrollo del primer trabajo práctico se aborodaron 
+			<h3>Desarrollo 1er Trabajo Práctico</h3>
+			<p> Durante el desarrollo del primer trabajo práctico se aborodaron 
 		temas como: el use de la plataforma GitHub como entorno de trabajo,
 		uso y manejo de variables, estructuras de control condicional
 		(selectivas y repetitivas), uso constructores de Clases, métodos,
@@ -40,25 +46,27 @@
 		abstracta Calendar, manipulacióon y creación de arrays, Interfaz List,
 		y manejo de excepciones. 
 		A continuación el enlaece al repositorio de GiHub  </p>
-		<a href=https://github.com/Matias-Churquina/TP01_ChurquinaMatias.git> Repositorio TP N°1</a>
-		<h3>Desarrollo 2do Trabajo Práctico</h3>
-		<p>En el desarrollo del  trabajo práctico 2 se continuó con el uso de
+			<a href=https://github.com/Matias-Churquina/TP01_ChurquinaMatias.git> Repositorio TP N°1</a>
+			<h3>Desarrollo 2do Trabajo Práctico</h3>
+			<p>En el desarrollo del  trabajo práctico 2 se continuó con el uso de
 		 la plataforma GitHub pero esta vez con la implementación y 
 		 actualización de ramas tanto de forma remota como local, también se
 		 abordó el tipo de dato Enum, enumerado como constante, interfaces,
 		 uso de @FunctionalInterface, y Stream Collecttion.
          A continuación se deja el enlace al respectivo repositorio para este trabajo:
-		</p>
-		<a href=https://github.com/Matias-Churquina/trabajo_practico_2.git> Repositorio TP N°2</a>
-		<h3>Desarrollo 3er Trabajo Práctico</h3>
-		<p>Para el desarrollo del trabajo práctico número 3 se creó un proyecto
+			</p>
+			<a href=https://github.com/Matias-Churquina/trabajo_practico_2.git> Repositorio TP N°2</a>
+			<h3>Desarrollo 3er Trabajo Práctico</h3>
+			<p>Para el desarrollo del trabajo práctico número 3 se creó un proyecto
 		 de tipo Spring Start Project, y se sumergió a la unidad referida a HTML 5,
 		 en esta se desarrolla: estructura de página web,   uso de tags (etiquetas) 
 		 para formalizar una página web, y validación de html por medio de un sitio
 		 de validación.
          A continuación el enlace al repositorio respectivo:
-		</p>
-		<a href=https://github.com/Matias-Churquina/trabajo_practico_3.git> Repositorio TP N°3</a>
+			</p>
+			<a href=https://github.com/Matias-Churquina/trabajo_practico_3.git> Repositorio TP N°3</a>
+		</section>
+		
 		<section id="teoria">
 			<h2>Teoría</h2>
 			<p> A continuación se presetará los contenidos y enlaces al material
@@ -141,15 +149,10 @@
 			</table>
 		</section>
 	</main>
-	<aside>
-		<h3>Enlaces a recursos realcionados</h3>
-		<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">FreeCodeCamp: Curso de HTML y CSS</a>
-		<a href="https://desarrolladoresweb.org/html/introduccion-a-html/">Introduccion a HTML</a>
-	</aside>
 	<footer>
-		<p>Copy Right 2024</p>
-		<p>Mi perfil de <a href="https://www.facebook.com/daniel.churquina.16">facebook</a></p>
-		<p>Correo electrónico: matiasdanielchurquina@gmail.com</p>
+		<p class="footer">Copy Right 2024</p>
+		<p >Mi perfil de <a class="footer-link" href="https://www.facebook.com/daniel.churquina.16">facebook</a></p>
+		<p class="footer">Correo electrónico: matiasdanielchurquina@gmail.com</p>
 	</footer>
 </body>
 </html>

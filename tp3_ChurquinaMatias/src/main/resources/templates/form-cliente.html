@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Registros de clientes</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="../static/css/estilosForm.css"/>
 	</head>
 	<body>
@@ -18,14 +21,14 @@
 	      	<label for="fechaNac">Fecha de nacimiento: <input id="fechaNac" name="fecha" type="date" required/></label>
 	      </fieldset>
 	      <fieldset>
-	        <legend>Selecionar sexo:</legend>
+	        <p>Selecionar sexo:</p>
 		        <label for="masculino"><input id="masculino" type="radio" name="account-type" class="inline" checked /> Masculino</label>
 		        <label for="femenino"><input id="femenino" type="radio" name="account-type" class="inline" /> Femenino</label>
 		        <label for="otro"><input id="otro" type="radio" name="account-type" class="inline" /> Otro</label>
 	      </fieldset>
-	      <label for="email"> Email: <input id="email" name="email" type="email" required /></label>
-	      <label for="direccion"> Domicilio: <input id="direccion" name="direccion" required/> </label>
 	      <fieldset>
+	      	<label for="email"> Email: <input id="email" name="email" type="email" required /></label>
+	      <label for="direccion"> Domicilio: <input id="direccion" name="direccion" required/> </label>
 	        <label for="provincia">Seleccione una provincia:
 	          <select id="provincia" name="provincia" required>
 	            <option value="">(selecione una provincia)</option>
@@ -40,7 +43,7 @@
 	        <label for="telefono">Número de celular: <input id="telefono" type="number" name="telefono" /> </label>
 	   	  </fieldset>
 	   	  <fieldset>
-	        <legend>Selecione un categoria de interés:</legend>
+	        <p>Selecione un categoria de interés:</p>
 	        	<label for="categ1">Categoria 1<input id="categ1" type="checkbox" name="categ1" /></label>
 	        	<label for="categ2">Categoria 1<input id="categ2" type="checkbox" name="categ2" /></label>
 	        	<label for="categ3">Categoria 1<input id="categ3" type="checkbox" name="categ3" /></label>
@@ -48,10 +51,10 @@
 	          <textarea id="sugerencia" name="sugerencia" rows="3" cols="30" placeholder="Creo que deberían mejorar en..."></textarea>
 	        </label>
 	        <label for="password">Ingrese una contraseña: <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required /></label>
-	      </fieldset>
-	      <label for="terms-and-conditions">
+	     	<label for="terms-and-conditions">
 	        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" required /> Acepto los <a href="#">términos y condiciones.</a>
-	      </label>
+	     	</label>
+	      </fieldset>
 	      <input type="submit" value="Enviar" />
 	    </form>
   </body>

@@ -1,32 +1,89 @@
 @charset "UTF-8";
 body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: #0077a2;
-  color: #f5f6f7;
-  font-family: Tahoma;
-  font-size: 16px;
+	margin: 0;
+	width: 100%;
+  	height: 100vh; 
+  	background-color: #e4e8ef;
+  	color: #fff;
+  	font-family: 'Source Code Pro';
+  	font-size: 16px;
+  	background-image: url('https://cdn.euroinnova.edu.es/img/subidasEditor/euroinnova-20-1680081723.webp');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #header {
 	background-color: #00476b;
+	padding: 2rem 3rem;
+	margin: 2rem 2rem;
+ 	text-align: center;
+ 	border-radius: 10px;
+}
+#nav {
+	color: #fff;
+}
+h1 {
+	font-size: 3rem;
+}
+fieldset {
+	background-color: #00476b;
+  	margin: 0.5rem;
+  	border-radius: 10px;
+ 	border-bottom: 3px solid #00476b;
+}
+aside{
+	margin: 7.5rem 2rem;
+	float: right;
+	width: 350px;
+	height: 500px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 0 10px 0 0;
+}
+#aside1 {
+	color: #00476b;
 }
 
+img{
+	float: right;
+	width: 350px;
+	height: 350px;
+}
 .menu {
 	text-align: rigth;
+	margin: 2rem;
+	background-color  :#00476b;
+	display: inline-flex;
+}
+.menu a{
+	border-radius: 5px 5px 0px 0px;
+	text-decoration: none;
 	padding: 10px;
-	background-color: #00b6dd;
 }
-
-h1, p {
-  margin: 1em auto;
-  text-align: center;
+.menu a:hover{
+	background-color: #bbd0e5;
+	color: black;
 }
-
+section {
+	margin: 1rem 2rem;
+	padding: 1rem 2rem;
+	background-color: #00476b;
+	border-radius: 10px;
+}
+a:link {
+	color: #b8d7ed;
+}
+a:visited {
+	color: gray;
+}
+a:hover{
+	color: #fff;
+}
 h2 {
 	margin: 1em auto;
 	text-align: lefth;
+	background-color: #bbd0e5;
+	color: #00476b;
 }
 
 form {
@@ -36,10 +93,9 @@ form {
   margin: 0 auto;
   padding-bottom: 2em;
 }
-
 fieldset {
   border: none;
-  padding: 2rem 0;
+  padding: 1rem 1rem;
   border-bottom: 3px solid #00476b;
 }
 
@@ -49,7 +105,7 @@ fieldset:last-of-type {
 
 label {
   display: block;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 input,
@@ -89,4 +145,26 @@ input[type="file"] {
 
 .inline{
   display: inline; 
+}
+footer {
+	background-color: #bbd0e5; 
+	color: #00476b;
+	text-align: center;
+	padding: 1rem;
+}
+.footer-link:link {
+	color: blueviolet;
+}
+.footer-link:visited {
+	color: #082448;
+}
+#categ1, #categ2, #categ3 {
+	margin: 0;
+	padding: 0;
+	margin: 10px 0 0 0;
+ 	width: 50%;
+	min-height: 1em;
+ 	background-color: #fffeff;
+	border: 1px solid #0a0a23;
+	color: white;
 }
